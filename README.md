@@ -29,8 +29,9 @@ Save and Document Results:
 Capture the waveform output and include the results in your report for verification.
 
 ## Verilog Code:
+```
 
-module normal_code(a,b,c,x,y,z);
+ module normal_code(a,b,c,x,y,z);
     input[3:0]a; 
     input[3:0]b;
     input[3:0]c;
@@ -45,11 +46,11 @@ module normal_code(a,b,c,x,y,z);
     end
 
 endmodule
-
+```
 
 
 ## Testbench for Swapping Three Numbers:
-
+```
 module normal_tb;
     reg [3:0] a, b, c;
     wire [3:0] x, y, z;
@@ -88,7 +89,7 @@ module normal_tb;
     end
 
 endmodule
-
+```
 
 ## output
 
